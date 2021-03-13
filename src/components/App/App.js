@@ -1,7 +1,14 @@
 import React from "react";
+import "./App.css";
 
 const App = () => {
-  return <div>1</div>;
+  return (
+    <div className="container">
+      <div className="header">1</div>
+      <div className="main">2</div>
+      <div className="footer">3</div>
+    </div>
+  );
 };
 
 export default App;

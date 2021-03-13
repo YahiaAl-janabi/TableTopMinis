@@ -1,0 +1,35 @@
+.container {
+  position: relative;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  background-color: brown;
+  height: 200vh;
+}
+
+/*----header----*/
+.header {
+  grid-column: 1 / 13;
+  grid-row: 1 / 4;
+  height: 50vh;
+}
+
+/*----main----*/
+.main {
+  grid-column: 1 / 13;
+  grid-row: 4 / 10;
+}
+
+/*----footer----*/
+.footer {
+  grid-column: 1 / 13;
+  grid-row: 10 / 13;
+}
+
+div {
+  background-color: cadetblue;
+}
+
+div:nth-child(even) {
+  background-color: burlywood;
+}
