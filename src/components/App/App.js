@@ -1,12 +1,14 @@
 import React from "react";
+import Header from "../Header/Header";
+import Main from "../Main/Main";
 import "./App.css";
 
 const App = () => {
   return (
-    <div className="container">
-      <div className="header">1</div>
-      <div className="main">2</div>
-      <div className="footer">3</div>
+    <div>
+      <Header />
+      <Main />
+      <Footer />
     </div>
   );
 };
