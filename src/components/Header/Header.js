@@ -5,7 +5,13 @@ const Header = () => {
   return (
     <div className="headercontainer">
       <div id="headercard">
-        <Card />
+        <a
+          href={"https://www.tabletopminis.co.uk/"}
+          target="_blank"
+          rel="noreferrer"
+        >
+          <Card />
+        </a>
       </div>
     </div>
   );

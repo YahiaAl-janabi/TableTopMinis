@@ -3,7 +3,7 @@
   display: grid;
   grid-template-columns: 1fr;
   grid-template-rows: 1fr;
-  background: #202020 linear-gradient(147deg, #202020, #3f3f3f 30%, #707070)
+  background: #141414 linear-gradient(147deg, #141414, #202020 30%, #707070)
     no-repeat;
   height: 80vh;
 }
