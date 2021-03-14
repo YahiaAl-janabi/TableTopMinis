@@ -1,0 +1,18 @@
+.card {
+  margin: 5rem auto;
+  width: 15rem;
+  height: 7rem;
+  background: brown;
+  border-radius: 5px;
+  background-image: url(/src/components/Header/Logohead/Logo1.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center center;
+  transition: box-shadow 0.5s;
+  will-change: transform;
+  border: 15px solid brown;
+}
+
+.card:hover {
+  box-shadow: 0px 30px 100px -10px rgba(0, 0, 0, 0.4);
+}
