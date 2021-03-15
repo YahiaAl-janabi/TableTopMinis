@@ -2,6 +2,7 @@ import React from "react";
 import "./Header.css";
 import Card from "./Logohead/Logohead";
 import Nav from "./Nav/Nav";
+import ImageViewer from "../ImageViewer/ImageViewer";
 const Header = () => {
   return (
     <div className="headercontainer">
@@ -9,6 +10,9 @@ const Header = () => {
         <Card />
       </div>
       <Nav />
+      <div className="headimgviewer">
+        <ImageViewer />
+      </div>
     </div>
   );
 };

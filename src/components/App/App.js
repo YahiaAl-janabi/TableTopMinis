@@ -3,7 +3,6 @@ import Header from "../Header/Header";
 import Main from "../Main/Main";
 import Footer from "../Footer/Footer";
 import "./App.css";
-import ImageViewer from "../ImageViewer/ImageViewer";
 
 const App = () => {
   return (
@@ -11,7 +10,6 @@ const App = () => {
       <Header />
       <Main />
       <Footer />
-      <ImageViewer />
     </div>
   );
 };

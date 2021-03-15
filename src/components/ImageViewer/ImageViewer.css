@@ -1,14 +1,12 @@
 .bg {
+  z-index: 1;
   position: absolute;
-  top: 10rem;
-  left: 50rem;
   width: 40vw;
   height: 70vh;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   will-change: opacity;
-
   border: 10px solid pink;
   border-image: repeating-linear-gradient(
       -55deg,
