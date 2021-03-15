@@ -1,9 +1,22 @@
 .headercontainer {
   position: relative;
   display: grid;
-  grid-template-columns: 1fr;
-  grid-template-rows: 1fr;
-  background: #141414 linear-gradient(147deg, #141414, #202020 30%, #707070)
-    no-repeat;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(12, 1fr);
+  background: #333333;
   height: 80vh;
+  border: 10px solid pink;
+  border-image: repeating-linear-gradient(
+      -55deg,
+      #000,
+      #000 20px,
+      #ffb101 20px,
+      #ffb101 40px
+    )
+    10;
+}
+
+.logohead1 {
+  grid-column: 1 / 3;
+  grid-row: 1 / 5;
 }
