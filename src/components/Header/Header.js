@@ -2,7 +2,8 @@ import React from "react";
 import "./Header.css";
 import Card from "./Logohead/Logohead";
 import Nav from "./Nav/Nav";
-import Slider from "../Slider/Slider";
+import Slider from "../Header/ImageSlide/ImageSlide";
+
 const Header = () => {
   return (
     <div className="headercontainer">
