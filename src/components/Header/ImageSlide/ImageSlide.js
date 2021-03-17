@@ -8,10 +8,10 @@ import "./ImageSlide.css";
 const Slider = () => {
   return (
     <AwesomeSlider className="slide">
-      <div className="slideimage" data-src={magnus} />
-      <div className="slideimage" data-src={thunder} />
-      <div className="slideimage" data-src={valdor} />
-      <div className="slideimage" data-src={duel} />
+      <div className="photo" data-src={magnus} />
+      <div className="photo" data-src={thunder} />
+      <div className="photo" data-src={valdor} />
+      <div className="photo" data-src={duel} />
     </AwesomeSlider>
   );
 };

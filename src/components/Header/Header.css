@@ -22,9 +22,10 @@
 }
 
 .headimgviewer {
-  margin-left: 1.1rem;
+  z-index: 1;
+  margin-left: -7rem;
+  margin-top: 6rem;
   grid-column: 7 / 11;
   grid-row: 4 / 7;
-  width: 40vw;
-  height: 70vh;
+  width: 50vw;
 }

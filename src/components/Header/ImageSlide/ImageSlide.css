@@ -1,6 +1,6 @@
 .slide {
   box-sizing: initial;
-  border: 7px solid pink;
+  border: 10px solid pink;
   border-image: repeating-linear-gradient(
       -55deg,
       #000,
@@ -9,10 +9,8 @@
       #ffb101 40px
     )
     10;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
---slider-height-percentage: 60%;
+/*--slider-height-percentage: 60%;
 --slider-transition-duration: 1000ms;
 --organic-arrow-thickness: 4px;
 --organic-arrow-border-radius: 0px;
@@ -24,4 +22,4 @@
 --control-bullet-color: #fcd0a8;
 --control-bullet-active-color: #d6b18f;
 --loader-bar-color: #851515;
---loader-bar-height: 6px;
+--loader-bar-height: 6px;*/

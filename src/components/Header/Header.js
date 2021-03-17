@@ -4,7 +4,7 @@ import Card from "./Logohead/Logohead";
 import Nav from "./Nav/Nav";
 import Slider from "../Header/ImageSlide/ImageSlide";
 
-const Header = () => {
+const Header = (props) => {
   return (
     <div className="headercontainer">
       <div className="logohead1">
