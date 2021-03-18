@@ -9,9 +9,11 @@
       #ffb101 40px
     )
     10;
+  --slider-height-percentage: 60%;
+  --slider-transition-duration: 2000ms;
 }
-/*--slider-height-percentage: 60%;
---slider-transition-duration: 1000ms;
+/*
+
 --organic-arrow-thickness: 4px;
 --organic-arrow-border-radius: 0px;
 --organic-arrow-height: 40px;

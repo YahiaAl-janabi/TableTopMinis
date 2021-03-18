@@ -1,8 +1,8 @@
 .logocard {
   margin-top: 1rem;
-  margin-left: 1rem;
-  width: 15rem;
-  height: 7rem;
+  margin-left: -4rem;
+  width: 20rem;
+  height: 10rem;
   background: transparent;
   border-radius: 5px;
   background-image: url(/src/components/Header/Logohead/Logo1.png);
