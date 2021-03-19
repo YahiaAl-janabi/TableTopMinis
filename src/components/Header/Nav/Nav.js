@@ -6,8 +6,8 @@ const Nav = () => {
     <div className="navdiv">
       <ul>
         <li>ABOUT</li>
-        <li>GALLARY</li>
         <li>SERVICES</li>
+        <li>GALLARY</li>
       </ul>
     </div>
   );
