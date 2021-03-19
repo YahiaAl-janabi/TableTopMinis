@@ -1,6 +1,4 @@
 .logocard {
-  margin-top: 1rem;
-  margin-left: -4rem;
   width: 20rem;
   height: 10rem;
   background: transparent;
@@ -12,6 +10,7 @@
   transition: box-shadow 0.5s;
   will-change: transform;
   border: 15px solid transparent;
+  margin-left: 2rem;
 }
 
 .logocard:hover {
