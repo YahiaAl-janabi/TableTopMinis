@@ -10,7 +10,6 @@
   transition: box-shadow 0.5s;
   will-change: transform;
   border: 15px solid transparent;
-  margin-left: 2rem;
 }
 
 .logocard:hover {

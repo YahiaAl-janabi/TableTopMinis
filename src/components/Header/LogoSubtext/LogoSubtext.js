@@ -3,7 +3,7 @@ import "./LogoSubtext.css";
 const LogoSubtext = () => {
   return (
     <div className="logosubtext">
-      <p>Commission Painting Service</p>
+      <p>Miniature Painting Service</p>
     </div>
   );
 };
