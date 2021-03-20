@@ -4,7 +4,7 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
   background-color: #141414;
-  height: 100vh;
+  height: 200vh;
   border: 10px solid pink;
   border-image: repeating-linear-gradient(
       -55deg,
@@ -19,7 +19,7 @@
 
 .headimgviewer {
   grid-column: 7 / 13;
-  grid-row: 1 / 9;
+  grid-row: 1 / 4;
   width: 40vw;
   padding: 2rem;
   margin: auto;
