@@ -5,9 +5,33 @@ const Nav = () => {
   return (
     <div className="navdiv">
       <ul>
-        <li>ABOUT</li>
-        <li>SERVICES</li>
-        <li>GALLARY</li>
+        <li>
+          <a
+            href={"https://www.tabletopminis.co.uk/"}
+            target="_blank"
+            rel="noreferrer"
+          >
+            ABOUT
+          </a>
+        </li>
+        <li>
+          <a
+            href={"https://www.tabletopminis.co.uk/"}
+            target="_blank"
+            rel="noreferrer"
+          >
+            SERVICES
+          </a>
+        </li>
+        <li>
+          <a
+            href={"https://www.tabletopminis.co.uk/"}
+            target="_blank"
+            rel="noreferrer"
+          >
+            GALLARY
+          </a>
+        </li>
       </ul>
     </div>
   );
