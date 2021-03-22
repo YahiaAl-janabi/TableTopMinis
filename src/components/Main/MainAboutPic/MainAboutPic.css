@@ -1,12 +1,12 @@
 .mainaboutpic {
   grid-column: 1 / 7;
-  grid-row: 1 / 5;
+  grid-row: 7 / 13;
   padding-top: 4.5rem;
   padding-left: 4rem;
 }
 
 .riyathe {
-  width: 20vw;
+  width: 40vw;
   border: 10px solid pink;
   border-image: repeating-linear-gradient(
       -55deg,

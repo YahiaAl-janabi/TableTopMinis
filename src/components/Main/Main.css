@@ -4,7 +4,7 @@
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(12, 1fr);
   background-color: #141414;
-  height: 200vh;
+  height: 125vh;
   border: 10px solid pink;
   border-image: repeating-linear-gradient(
       -55deg,

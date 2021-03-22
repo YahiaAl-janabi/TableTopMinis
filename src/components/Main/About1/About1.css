@@ -1,0 +1,13 @@
+.about1 {
+  grid-column: 1 / 7;
+  grid-row: 1 / 7;
+  padding-top: 4.5rem;
+  padding-left: 4rem;
+}
+
+.about1p {
+  color: white;
+  font-family: Coolvetica;
+  letter-spacing: 0.11rem;
+  line-height: 1.4rem;
+}
