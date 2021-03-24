@@ -7,7 +7,14 @@ import duel from "./duel.jpg";
 import "./ImageSlide.css";
 import withAutoplay from "react-awesome-slider/dist/autoplay";
 const AutoplaySlider = withAutoplay(AwesomeSlider);
+
 const Slider = () => {
+  const imagestylevaldor = {
+    width: "50%",
+    height: "100%",
+    marginLeft: "25%",
+  };
+
   return (
     <AutoplaySlider
       className="slide"
@@ -17,7 +24,7 @@ const Slider = () => {
     >
       <div className="photo" data-src={magnus} />
       <div className="photo" data-src={thunder} />
-      <div className="photo" data-src={valdor} />
+      <div className="photo" data-src={valdor} style={imagestylevaldor} />
       <div className="photo" data-src={duel} />
     </AutoplaySlider>
   );
