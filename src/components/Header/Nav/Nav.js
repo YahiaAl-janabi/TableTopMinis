@@ -29,7 +29,7 @@ const Nav = () => {
             target="_blank"
             rel="noreferrer"
           >
-            PREVIOUS WORK
+            GALLARY
           </a>
         </li>
       </ul>
