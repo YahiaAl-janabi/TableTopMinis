@@ -1,4 +1,5 @@
 .slide {
+  background-color: white;
   box-sizing: initial;
   border: 10px solid pink;
   border-image: repeating-linear-gradient(
@@ -10,7 +11,8 @@
     )
     10;
   --slider-height-percentage: 60%;
-  --slider-transition-duration: 2000ms;
+  --slider-transition-duration: 1000ms;
+  --loader-bar-color: #ffffff;
 }
 /*
 
@@ -23,5 +25,5 @@
 --control-button-background: transparent;
 --control-bullet-color: #fcd0a8;
 --control-bullet-active-color: #d6b18f;
---loader-bar-color: #851515;
+
 --loader-bar-height: 6px;*/

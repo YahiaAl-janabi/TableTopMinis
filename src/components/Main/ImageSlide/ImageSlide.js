@@ -14,16 +14,26 @@ const Slider = () => {
     height: "100%",
     marginLeft: "25%",
   };
+  const imagestylemagnus = {
+    width: "40%",
+    height: "100%",
+    marginLeft: "34%",
+  };
+  const imagestylethunder = {
+    width: "80%",
+    height: "90%",
+    marginLeft: "10%",
+  };
 
   return (
     <AutoplaySlider
       className="slide"
-      play={true}
+      play={false}
       cancelOnInteraction={false} // should stop playing on user interaction
-      interval={4000}
+      interval={100}
     >
-      <div className="photo" data-src={magnus} />
-      <div className="photo" data-src={thunder} />
+      <div className="photo" data-src={thunder} style={imagestylethunder} />
+      <div className="photo" data-src={magnus} style={imagestylemagnus} />
       <div className="photo" data-src={valdor} style={imagestylevaldor} />
       <div className="photo" data-src={duel} />
     </AutoplaySlider>
