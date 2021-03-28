@@ -30,7 +30,7 @@ const Slider = () => {
       className="slide"
       play={false}
       cancelOnInteraction={false} // should stop playing on user interaction
-      interval={100}
+      interval={0}
     >
       <div className="photo" data-src={thunder} style={imagestylethunder} />
       <div className="photo" data-src={magnus} style={imagestylemagnus} />
