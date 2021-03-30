@@ -5,7 +5,7 @@ import duel from "./duel.jpg";
 const ImageCard1 = () => {
   return (
     <div className="imagecard1div">
-      <img className="imagecard1" src={duel} alt="due;" />
+      <img className="imagecard1" src={duel} alt="duel" />
     </div>
   );
 };
